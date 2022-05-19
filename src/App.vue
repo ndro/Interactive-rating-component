@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center min-h-screen font-sans antialiased bg-very-dark-blue">
-    <div class="shadow-lg rounded-2xl p-6 bg-dark-blue w-[320px] text-center">
+    <div class="shadow-md rounded-2xl p-6 bg-gradient-to-b from-dark-blue via-dark-blue to-neutral-900 w-[320px] text-center">
       <router-view />
     </div>
   </div>
