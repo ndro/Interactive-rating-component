@@ -6,7 +6,7 @@
 
     <h1 class="mb-2 text-xl font-bold">How did we do?</h1>
 
-    <p class="mb-3 text-xs text-medium-grey">
+    <p class="mb-5 text-xs leading-normal tracking-tight text-light-grey">
       Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
     </p>
 
