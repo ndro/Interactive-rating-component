@@ -4,7 +4,7 @@
       <img src="../assets/icon-star.svg" alt="Star image" class="p-3 rounded-full w-9 bg-dark-blue">
     </div>
 
-    <h1 class="mb-3 text-xl font-bold">How did we do?</h1>
+    <h1 class="mb-2 text-xl font-bold">How did we do?</h1>
 
     <p class="mb-3 text-xs text-medium-grey">
       Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
