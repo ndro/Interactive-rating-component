@@ -11,11 +11,21 @@
     </p>
 
     <div class="flex justify-between mb-6 text-sm text-center item-center text-medium-grey">
-      <div class="w-10 h-10 p-3 rounded-full bg-dark-blue">1</div>
-      <div class="w-10 h-10 p-3 rounded-full bg-dark-blue">2</div>
-      <div class="w-10 h-10 p-3 rounded-full bg-dark-blue">3</div>
-      <div class="w-10 h-10 p-3 rounded-full bg-dark-blue">4</div>
-      <div class="w-10 h-10 p-3 rounded-full bg-dark-blue">5</div>
+      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
+        1
+      </button>
+      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
+        2
+      </button>
+      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
+        3
+      </button>
+      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
+        4
+      </button>
+      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
+        5
+      </button>
     </div>
 
     <button class="w-full h-8 text-sm bg-primary rounded-2xl">
