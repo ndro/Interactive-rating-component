@@ -10,26 +10,41 @@
       Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
     </p>
 
-    <div class="flex justify-between mb-6 text-sm text-center item-center text-medium-grey">
-      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
-        1
-      </button>
-      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
-        2
-      </button>
-      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
-        3
-      </button>
-      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
-        4
-      </button>
-      <button class="w-10 h-10 p-3 font-semibold rounded-full bg-dark-blue hover:bg-light-grey hover:text-white focus:bg-primary focus:text-white">
-        5
-      </button>
+    <div class="flex justify-between mb-6 text-sm text-center px- item-center text-medium-grey">
+      <div>
+        <input name="rating" type="radio" id="1" value="1" class="hidden peer"/>
+        <label for="1" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
+          1
+        </label>
+      </div>
+      <div>
+        <input name="rating" type="radio" id="2" value="2" class="hidden peer"/>
+        <label for="2" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
+          2
+        </label>
+      </div>
+      <div>
+        <input name="rating" type="radio" id="3" value="3" class="hidden peer"/>
+        <label for="3" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
+          3
+        </label>
+      </div>
+      <div>
+        <input name="rating" type="radio" id="4" value="4" class="hidden peer"/>
+        <label for="4" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
+          4
+        </label>
+      </div>
+      <div>
+        <input name="rating" type="radio" id="5" value="5" class="hidden peer"/>
+        <label for="5" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
+          5
+        </label>
+      </div>
     </div>
 
-    <button class="w-full h-8 text-sm bg-primary rounded-2xl">
-      SUBMIT
+    <button class="w-full h-8 bg-primary rounded-2xl hover:bg-white hover:text-primary">
+      <span class="text-xs font-semibold tracking-widest">SUBMIT</span>
     </button>
   </div>
 </template>
