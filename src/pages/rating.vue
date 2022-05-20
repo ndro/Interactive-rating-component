@@ -1,7 +1,7 @@
 <template>
   <div class="text-white">
     <div class="mb-6">
-      <img src="../assets/icon-star.svg" alt="Star image" class="p-2.5 rounded-full w-8 bg-dark-blue ">
+      <img src="../assets/icon-star.svg" alt="Star image" class="p-3 rounded-full w-9 bg-dark-blue">
     </div>
 
     <h1 class="mb-3 text-xl font-bold">How did we do?</h1>
