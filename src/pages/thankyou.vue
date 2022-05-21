@@ -1,3 +1,11 @@
+<script setup>
+import { computed } from 'vue'
+
+const ratingValue = computed(() => {
+  return localStorage.getItem('rating')
+})
+</script>
+
 <template>
   <div class="text-white">
     <div class="flex flex-col items-center justify-center px-1 py-2">
