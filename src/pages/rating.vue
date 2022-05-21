@@ -1,3 +1,17 @@
+<script setup>
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const ratingValue = ref(0)
+
+const submit = () => {
+  localStorage.setItem('rating', ratingValue.value)
+
+  router.push({ name: 'ThankYou' })
+}
+</script>
+
 <template>
   <div class="text-white">
     <div class="mb-6">
