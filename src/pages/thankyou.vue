@@ -12,7 +12,7 @@ const ratingValue = computed(() => {
       <img src="../assets/illustration-thank-you.svg" alt="Star image" class="w-32 mb-6">
 
       <div class="px-3 py-1 mb-6 text-xs rounded-full text-primary bg-dark-blue">
-        You selected n out of 5
+        You selected {{ ratingValue }} out of 5
       </div>
 
       <h1 class="mb-2 text-xl font-bold">Thank you!</h1>
