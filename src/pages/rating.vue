@@ -24,7 +24,7 @@ const submit = () => {
       Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
     </p>
 
-    <div class="flex justify-between mb-6 text-sm text-center px- item-center text-medium-grey">
+    <div class="flex justify-between mb-6 text-sm text-center item-center text-medium-grey">
       <div>
         <input name="rating" type="radio" id="1" value="1" v-model="ratingValue" class="hidden peer"/>
         <label for="1" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
