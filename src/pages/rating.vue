@@ -57,7 +57,7 @@ const submit = () => {
       </div>
     </div>
 
-    <button class="w-full h-8 bg-primary rounded-2xl hover:bg-white hover:text-primary">
+    <button @click="submit" class="w-full h-8 bg-primary rounded-2xl hover:bg-white hover:text-primary">
       <span class="text-xs font-semibold tracking-widest">SUBMIT</span>
     </button>
   </div>
