@@ -26,31 +26,31 @@ const submit = () => {
 
     <div class="flex justify-between mb-6 text-sm text-center px- item-center text-medium-grey">
       <div>
-        <input name="rating" type="radio" id="1" value="1" class="hidden peer"/>
+        <input name="rating" type="radio" id="1" value="1" v-model="ratingValue" class="hidden peer"/>
         <label for="1" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
           1
         </label>
       </div>
       <div>
-        <input name="rating" type="radio" id="2" value="2" class="hidden peer"/>
+        <input name="rating" type="radio" id="2" value="2" v-model="ratingValue" class="hidden peer"/>
         <label for="2" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
           2
         </label>
       </div>
       <div>
-        <input name="rating" type="radio" id="3" value="3" class="hidden peer"/>
+        <input name="rating" type="radio" id="3" value="3" v-model="ratingValue" class="hidden peer"/>
         <label for="3" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
           3
         </label>
       </div>
       <div>
-        <input name="rating" type="radio" id="4" value="4" class="hidden peer"/>
+        <input name="rating" type="radio" id="4" value="4" v-model="ratingValue" class="hidden peer"/>
         <label for="4" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
           4
         </label>
       </div>
       <div>
-        <input name="rating" type="radio" id="5" value="5" class="hidden peer"/>
+        <input name="rating" type="radio" id="5" value="5" v-model="ratingValue" class="hidden peer"/>
         <label for="5" class="inline-block w-10 h-10 p-3 font-semibold rounded-full cursor-pointer bg-dark-blue peer-hover:bg-light-grey peer-hover:text-white peer-checked:bg-primary peer-checked:text-white">
           5
         </label>
